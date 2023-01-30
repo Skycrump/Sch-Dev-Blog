@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1, h3, h4, h5, h6 {
+    color: white;
+    font: weight 400px;;
+  }
+   
+  h2 {
+    position: relative;
+    top: -15px;
+    left: 10px;
+  }
+  
+  .header-main-point {
+    padding-top: 20px;
+}
+  
+  /* Add styles for main points section */
+  .main-points {
+    border-radius: 10px;
+    background-color: rgb(100, 219, 124);
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Add styles for reflection section */
+  .reflection {
+    border-radius: 10px;
+    background-color: rgb(88, 161, 217);
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  /* Navigation bar styles */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+
+  .navbar {
+    font-size: larger;
+  }
+
+  nav a:first-child {
+    font-weight: bold;
+  }
+    
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+
+  nav .dropdown button {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  nav .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  nav .dropdown .dropbtn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  nav .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    min-width: 105px;
+  }
+  
+  nav .dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+    font-size: 16px; /* Add this line */
+  }
+    
+  nav .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+  section {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  h2, h3 {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+
+  ul {
+    padding-left: 1.0em;
+    position: relative;
+  }
+  
+  ul li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #333;
+  }
+  
+  
+  p {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 10px;
+    height: 3px;
+    background-color: #F5F5F5;
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color:lightgray;
+  }
+   
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: #555555;
+  }
+  
